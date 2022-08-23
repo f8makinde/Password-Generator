@@ -1,0 +1,40 @@
+.container{
+    background-color: rgba(28, 28, 28, 1);  height: 550px;
+    width: 550px;
+    left: 61px;
+    top: 64px;
+    border-radius: 0px;
+    display: block;
+    margin: 0 auto;
+}
+.main{
+    background: rgba(236, 253, 245, 1);
+    height: 300px;
+    width: 300px;
+    /* left: 61px; */
+    top: 64px;
+    border-radius: 0px;
+    display: block;
+    margin: 0 auto;
+    font-family: Karla;
+   text-align: left;
+
+}
+h1{
+ height: 80px;
+width: 354px;
+/* left: 52px; */
+top: 115px;
+border-radius: nullpx;
+color: rgba(43, 40, 58, 1);
+line-height: 40px;
+}
+strong{
+    height: 80px;
+width: 354px;
+/* left: 52px; */
+top: 115px;
+border-radius: nullpx; 
+color: rgba(16, 185, 129, 1);
+line-height: 86%;
+}
