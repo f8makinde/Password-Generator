@@ -16,7 +16,7 @@
     border-radius: 0px;
     display: block;
     margin: 0 auto;
-    font-family: Karla;
+    font-family: 'Karla', sans-serif;
    text-align: left;
 
 }
@@ -37,4 +37,7 @@ top: 115px;
 border-radius: nullpx; 
 color: rgba(16, 185, 129, 1);
 line-height: 86%;
+}
+p{
+    font-family: sans-serif;
 }
