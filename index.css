@@ -82,7 +82,7 @@ hr{
   top: 396px;
   border-radius: 6px;
   background: rgba(39, 53, 73, 1);
-
+ color: white;
 }
 
 #second-psw{
@@ -92,6 +92,7 @@ hr{
   top: 396px;
   border-radius: 6px;
   background: rgba(39, 53, 73, 1);
+  color: white;
 
 }
 #section-two{
