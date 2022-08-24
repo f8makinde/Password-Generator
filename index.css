@@ -1,43 +1,102 @@
 .container{
     background-color: rgba(28, 28, 28, 1);  height: 550px;
-    width: 550px;
+    width: 500px;
+    height: 500px;
     left: 61px;
     top: 64px;
     border-radius: 0px;
     display: block;
     margin: 0 auto;
+    
 }
 .main{
     background: rgba(236, 253, 245, 1);
-    height: 300px;
-    width: 300px;
-    /* left: 61px; */
-    top: 64px;
+    height: 350px;
+    width: 350px;
+    top: 54px;
     border-radius: 0px;
     display: block;
     margin: 0 auto;
     font-family: 'Karla', sans-serif;
-   text-align: left;
+    text-align: left;
+    position: relative;
+    padding: 20px;
+}
 
-}
 h1{
- height: 80px;
-width: 354px;
-/* left: 52px; */
-top: 115px;
-border-radius: nullpx;
-color: rgba(43, 40, 58, 1);
-line-height: 40px;
+  height: 80px;
+  width: 354px;
+  top: 115px;
+  color: rgba(43, 40, 58, 1);
+  line-height: 40px;
 }
+
 strong{
-    height: 80px;
-width: 354px;
-/* left: 52px; */
-top: 115px;
-border-radius: nullpx; 
-color: rgba(16, 185, 129, 1);
-line-height: 86%;
+  height: 80px;
+  width: 354px;
+  top: 115px;
+  border-radius: nullpx; 
+  color: rgba(16, 185, 129, 1);
+  line-height: 86%;
 }
 p{
-    font-family: sans-serif;
+    font-family:sans-serif;
+}
+button{
+ background: rgba(16, 185, 129, 1);
+ height: 42px;
+ width: 191px;
+ left: 52px;
+ margin-top: 50px;
+ border-radius: 6px;
+ padding: 9px, 17px, 9px, 15px;
+ border: none;
+
+}
+#section-one{
+  position: relative;
+  margin-top: -20px;
+  margin-bottom: 25px;
+}
+hr{
+    color: #D5D4D8;
+    height: 0px;
+    border: 1px solid rgba(213, 212, 216, 1);
+    width: 350px;
+    left: 52px;
+    top: 361px;
+    border-radius: nullpx;
+  
+}
+#generate-psw{
+ height: 24px;
+ width: 160px;
+ left: 15px;
+ top: 9px;
+ color: #FFFFFF;
+ }
+#first-psw{
+  height: 39px;
+  width: 170px;
+  left: 52px;
+  top: 396px;
+  border-radius: 6px;
+  background: rgba(39, 53, 73, 1);
+
+}
+
+#second-psw{
+  height: 39px;
+  width: 170px;
+  left: 287px;
+  top: 396px;
+  border-radius: 6px;
+  background: rgba(39, 53, 73, 1);
+
+}
+#section-two{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
