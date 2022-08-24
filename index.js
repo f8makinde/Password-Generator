@@ -4,6 +4,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 let firstPswEl = document.getElementById("first-psw");
 let secondPswEl = document.getElementById("second-psw")
 
+
   function psw(){
     for(let i = 1; i <= 15; i++){
         let randomOne = Math.floor(Math.random() * characters.length);
@@ -12,4 +13,11 @@ let secondPswEl = document.getElementById("second-psw")
       secondPswEl.textContent += characters[randomTwo];
       }
 
+}
+
+
+
+function rst(){
+    firstPswEl.textContent = "";
+    secondPswEl.textContent = "";
 }
