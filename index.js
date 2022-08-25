@@ -4,20 +4,34 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 let firstPswEl = document.getElementById("first-psw");
 let secondPswEl = document.getElementById("second-psw")
 
+let randomOne;
 
-  function psw(){
-    for(let i = 1; i <= 15; i++){
-        let randomOne = Math.floor(Math.random() * characters.length);
-        let randomTwo = Math.floor(Math.random() * characters.length);
-          firstPswEl.textContent += characters[randomOne];
-      secondPswEl.textContent += characters[randomTwo];
-      }
+
+function pass(){
+let str = ''
+for(let i = 0; i<15; i++){
+ randomOne=  Math.floor(Math.random() * characters.length);
+  str += characters[randomOne] 
+
+}
+return str
 
 }
 
+
+  function psw(){
+        
+          firstPswEl.textContent = pass();
+          secondPswEl.textContent = pass()
+          
+        }
+
+           
+    
 
 
 function rst(){
     firstPswEl.textContent = "";
     secondPswEl.textContent = "";
 }
+
